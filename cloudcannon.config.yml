@@ -1,20 +1,18 @@
 paths:
-  static: ''
-  uploads: uploads
-timezone: Europe/Kyiv
-markdown:
-  engine: commonmark
-  options: {}
+  uploads: /assets/images
+  static: /
+
 collections_config:
   pages:
     path: ''
+    glob:
+      - '**/*.html'
+    name: Сторінки
+    singular_name: Сторінка
+    description: Усі сім сторінок сайту в одному розділі. Відкрийте сторінку та редагуйте текст безпосередньо на макеті.
     icon: wysiwyg
-  assets:
-    path: assets
-    icon: cases
-  places:
-    path: places
-    icon: pace
-  walks:
-    path: walks
-    icon: masks
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+    _enabled_editors:
+      - visual
