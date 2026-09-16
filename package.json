@@ -1,0 +1,13 @@
+{
+  "name": "kyiv-misto-dlya-svoyih",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Київ: місто для своїх — 7-сторінковий міський путівник",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}
